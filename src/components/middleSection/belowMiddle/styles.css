@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 62px 120px 62px 120px;
+}
+
+.container {
+  width: 100%;
+}
+
+.textStyle {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px; /* 101.786% */
+  letter-spacing: -2.24px;
+  margin: 0;
+}
+
+.subText {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.borderContainer {
+  border: 2px solid #ffffff;
+  width: 100%;
+  margin: 40px;
+}
+
+.listText {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: normal;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.wl{
+    width: 50%;
+}
+
+.wr{
+    width: 50%;
+}

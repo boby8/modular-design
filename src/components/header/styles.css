@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 62px 120px 62px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items:
+  center ;
+  flex-wrap: wrap;
+}
+.userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinTeam {
+  background: #ffffff;
+  padding: 8px 20px;
+  border-radius: 90px;
+  width: -webkit-fill-available;
+  color: #111;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: 'Zen Maru Gothic bold';
+}
+
+.developer {
+    color:  #FFC700;
+font-size: 24px;
+font-weight: 500;
+line-height: 57px; /* 237.5% */
+letter-spacing: -0.96px;
+}
+
+.listTetx{
+    color: #ffffff;
+text-align: center;
+font-size: 16px;
+font-weight: 900;
+line-height: normal;
+cursor: pointer;
+}
+.listTetx:hover{
+    color: #FFC700;
+    border-bottom: 1px solid #FFC700;
+}

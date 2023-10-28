@@ -1,0 +1,55 @@
+.developerTeamContainer {
+    width:60%;
+    position: relative;
+  }
+  .innovationContainer {
+      width:40%;
+  
+    margin-top: 90px;
+  }
+  
+  .text {
+    color: #ffc700;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px; /* 101.786% */
+    letter-spacing: -2.24px;
+    margin: 0;
+  }
+  .creatFuture {
+    color: #ffc700;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .pinkText {
+    color: #e3007b;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .blackButtonContainer {
+    padding: 10px 20px;
+    display: inline;
+    position: absolute;
+    right: 0;
+  }
+  
+  .blueContainerimage{
+      right: 0;
+      display: inline;
+      position: absolute;
+      top: 0px;
+      padding: 10px;
+  }
+  
+  .plusContainer{
+      display: inline;
+      position: absolute;
+      right: 0;
+      bottom: 5%;
+  }
