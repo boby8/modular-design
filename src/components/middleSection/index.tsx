@@ -5,16 +5,17 @@ import abc from "../../assets/Images/Vector.png";
 import BlackCircle from "../../assets/Images/BlackCircle.png";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import BelowMiddle from "./belowMiddle";
+import Revolution from './Revolution';
 const MiddleSection = () => {
   return (
     <>
-    <div className="dflex">
+    <div className="dflex flex-wrap">
       <div className="developerTeamContainer">
         <Card
           sx={{ background: "#222", borderRadius: "20px", color: "#ffffff" }}
         >
           <CardContent sx={{ padding: "30px" }}>
-            <div className="dflex flex-col" style={{ gap: 100 }}>
+            <div className="dflex flex-col cardGap">
               <div className="dflex flex-col">
                 <p className="creatFuture">Creating the Future</p>
                 <div className="dflex align-items-center g30">
@@ -59,8 +60,8 @@ const MiddleSection = () => {
             </div>
           </CardContent>
         </Card>
-        <div className="dflex">
-          <div style={{ width: "70%", position: "relative" }}>
+        <div className="dflex g10 bluePinkContainer">
+          <div className="blueContainer">
             <Card
               sx={{
                 background: "#4800E2",
@@ -87,7 +88,7 @@ const MiddleSection = () => {
             </Card>
           </div>
 
-          <div>
+          <div className="pinkContainer">
             <Card
               sx={{
                 background: "#E3007B",
@@ -101,7 +102,7 @@ const MiddleSection = () => {
               <CardContent sx={{ padding: "30px" }}>
                 <div>
                   <p className="pinkText" style={{ color: "#ffffff" }}>
-                    Rethinking business models
+                    Rethinking <br/> business models
                   </p>
                   <p
                     className="pinkText"
@@ -117,6 +118,7 @@ const MiddleSection = () => {
       </div>
     </div>
     <BelowMiddle />
+    <Revolution />
     </>
   );
 };

@@ -1,9 +1,9 @@
 .developerTeamContainer {
-  width:60%;
+  width: 60%;
   position: relative;
 }
 .innovationContainer {
-    width:40%;
+  width: 40%;
 
   margin-top: 90px;
 }
@@ -39,17 +39,73 @@
   right: 0;
 }
 
-.blueContainerimage{
-    right: 0;
-    display: inline;
-    position: absolute;
-    top: 0px;
-    padding: 10px;
+.blueContainerimage {
+  right: 0;
+  display: inline;
+  position: absolute;
+  top: 0px;
+  padding: 10px;
 }
 
-.plusContainer{
-    display: inline;
-    position: absolute;
-    right: 0;
-    bottom: 5%;
+.bluePinkContainer{
+  flex-wrap: nowrap;
+}
+
+.plusContainer {
+  display: inline;
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+.blueContainer {
+  width: 70%;
+  position: relative;
+}
+.pinkContainer {
+  width: 30%;
+  position: relative;
+}
+.cardGap {
+  gap: 100px;
+}
+@media screen and (max-width: 900px) {
+  .developerTeamContainer {
+    width: 100%;
+  }
+  .innovationContainer {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .blueContainer {
+    width: 60%;
+  }
+  .pinkContainer {
+    width: 40%;
+  }
+  .wl {
+    width: 100%;
+  }
+  .wr {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .developerTeamContainer {
+    width: 100%;
+  }
+
+  .blueContainer {
+    width: 100%;
+  }
+  .pinkContainer {
+    width: 100%;
+  }
+  .cardGap {
+    gap: 20px;
+  }
+  .bluePinkContainer{
+    flex-wrap: wrap;
+  }
 }

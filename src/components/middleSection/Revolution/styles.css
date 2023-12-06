@@ -1,0 +1,54 @@
+.revolutionContainer {
+  width: 70%;
+}
+.percentage {
+  border-radius: 30px;
+  background: var(--black, #111);
+  color: #ffc700;
+  padding: 10px 50px;
+  margin: 0;
+}
+
+.revolutionText {
+  color: var(--blue, #4800e2);
+  font-family: Zen Maru Gothic;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px; /* 103.636% */
+  letter-spacing: -2.2px;
+  margin: 0;
+  width: 50%;
+}
+
+.aiText {
+  color: var(--blue, #4800e2);
+  font-family: Zen Maru Gothic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  width: 30%;
+  text-align: end;
+}
+
+.imgContainer {
+  margin-top: 10%;
+}
+
+.caseStudyContainer {
+  width: 30%;
+  margin-top: 10%;
+  color: #ffc700;
+}
+
+.caseStudy{
+    color: var(--yellow, #FFC700);
+font-family: Zen Maru Gothic;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+}

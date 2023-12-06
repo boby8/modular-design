@@ -2,17 +2,18 @@ import "./styles.css";
 import GradeIcon from "@mui/icons-material/Grade";
 const BelowMiddle = () => {
   return (
-    <div className="dflex flex-col wrapper">
-      <div className="dflex justify-content-between container">
-        <p className="textStyle">We offer a range of innovative solutions </p>
-        <p className="subText">
+    <div className="dflex flex-col wrapper flex-wrap">
+      <div className="dflex justify-content-between container  align-items- flex-wrap">
+        <p className="textStyle wl">We offer a range of <br/> innovative solutions </p>
+        <p className="subText wr
+       ">
           Our solutions can help our clients to automate
           <br /> their operations, optimize their workflows, and <br />
           transform their businesses.{" "}
         </p>
       </div>
       <div className="borderContainer"></div>
-      <div className="dflex">
+      <div className="dflex flex-wrap">
         <div className="dflex flex-col wl g10">
           <div className="dflex g10">
             <div className="listText">
@@ -20,7 +21,7 @@ const BelowMiddle = () => {
               <GradeIcon />
             </div>
           </div>
-          <div className="dflex g10">
+          <div className="dflex g10 flex-wrap">
             <div className="listText">
               <p className="m0">AI development</p>
               <GradeIcon />
@@ -30,7 +31,7 @@ const BelowMiddle = () => {
               <GradeIcon />
             </div>
           </div>
-          <div className="dflex g10">
+          <div className="dflex g10 flex-wrap">
             <div className="listText">
               <p className="m0">Deep learning</p>
               <GradeIcon />
